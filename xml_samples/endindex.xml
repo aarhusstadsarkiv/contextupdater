@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contextDocumentationIndex xsi:schemaLocation="http://www.sa.dk/xmlns/diark/1.0 ../Schemas/standard/contextDocumentationIndex.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sa.dk/xmlns/diark/1.0">
   <document>
     <documentID>16</documentID>
     <documentTitle>Konverteringslog</documentTitle>
