@@ -17,7 +17,7 @@ treeb = ET.parse(Path(sampleb))
 rootb = treeb.getroot()
 treee = ET.parse(Path(samplee))
 roote = treee.getroot()
-test = [rootb, root, roote]
+roots = [rootb, root, roote]
 xml_element_tree = None
 bigtree = ET.ElementTree()
 
@@ -31,7 +31,7 @@ for doc in roote.findall('.//table_ns:documentID', ns):
     doc.text = int(docid[-1]) + 1
     doc.text = str(doc.text)
 
-for i in test:
+for i in roots:
     if xml_element_tree is None:
         xml_element_tree = i
     else:
